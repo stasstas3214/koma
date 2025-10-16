@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+}
+.gallery-section {
+  background: #fff5f7;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+.gallery-section .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.gallery-section .gallery img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  
+}
+.gallery-section .testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.gallery-section .testimonial .avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.gallery-section .testimonial blockquote {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.gallery-section .testimonial blockquote p {
+  font-style: italic;
+  color: #333;
+  line-height: 1.6;
+}
+.gallery-section .testimonial h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.gallery-section .testimonial .dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.gallery-section .testimonial .dots span {
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+}
+.gallery-section .testimonial .dots span.active {
+  background: #ff4d6d;
+}

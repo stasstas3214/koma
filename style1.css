@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+.hero {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 200px;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: nowrap; /* <── всі картки в одному рядку */
+  overflow-x: auto;  /* <── якщо екран замалий, можна прокручувати */
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 0 0 335px; /* <── фіксована ширина, без розтягування */
+  height: 735px;
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.card h2 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.ice-cream {
+  background-color: #f78da7;
+}
+
+.ice-coffee {
+  background-color: #d8bfa2;
+}
+
+.milkshake {
+  background-color: #8fcf9c;
+}
+
+.title-section {
+   margin-top: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-section h4 {
+  font-size: 38px;
+  color: #f5a6a6;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.title-section h1 {
+  font-size: 70px;
+  color: #e94256;
+  font-weight: 800;
+  margin: 5px 0 0 0;
+  letter-spacing: 1px;
+}
