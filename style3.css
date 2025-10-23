@@ -1,105 +1,173 @@
-
-
-.made {
+.How {
+  background-color: #fff5f6;
+  background-image: url("./img/sectionbg1 1.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center top; 
+  padding: 80px 0 120px 0;
   position: relative;
-  width: 100%;
-  background-color: #fff5f5;
-  padding: 100px 0 60px;
-}
-
-.made .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 60px;
-  flex-wrap: wrap;
-}
-
-.made .image {
-  flex: 1 1 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.made .image img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.made .content {
-  flex: 1 1 400px;
-}
-
-.made .content h3 {
-  color: #e94256;
-  font-weight: 800;
-  font-size: 14px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.made .content h2 {
-  font-size: 32px;
-  font-weight: 900;
-  color: #111;
-  margin-bottom: 25px;
-}
-
-.made .content p {
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-size: 15px;
-}
-
-.made .content .btn {
-  display: inline-block;
-  background-color: #e94256;
-  color: #fff;
-  padding: 10px 22px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.made .content .btn:hover {
-  background-color: #ff5b6d;
+  overflow: hidden;
 }
 
 
-.made-stats {
-  background-color: #fff5f5;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 100px;
-  padding: 20px 0 80px;
-  flex-wrap: wrap;
-}
 
-.made-stats .item {
+.tradition {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
   text-align: center;
-  width: 150px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  margin-bottom: 10px;
 }
 
-.made-stats .item h3 {
-  color: #e94256;
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 8px;
+.how-title {
+  font-family: "Titan One";
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 60px;
 }
 
-.made-stats .item p {
-  color: #444;
+
+.h2-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  max-width: 1100px;
+  margin: 0 auto 70px auto;
+}
+
+.cow {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.p-all {
+  max-width: 460px;
+}
+
+.p1 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-bottom: 14px;
+}
+
+.p2 {
+  font-family: "DM Sans";
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  color: #907e82;
+  margin-bottom: 12px;
 }
 
+.how-button {
+  display: inline-block;
+  width: 176px;
+  height: 44px;
+  line-height: 44px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #d41443;
+  background-color: #fff;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
+.how-button:hover {
+  background-color: #d41443;
+  color: #fff;
+}
+
+/* ===== СПИСОК СТАТИСТИК ===== */
+.how-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.how-li {
+  text-align: center;
+  max-width: 200px;
+}
+
+.how-img {
+  display: block;
+  margin: 0 auto 16px auto;
+  width: 33px;
+  height: 50px;
+}
+
+.how-p {
+  font-family: "Titan One";
+  font-size: 58px;
+  line-height: 66px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 12px;
+}
+
+.how-p1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+/* ===== АДАПТИВ ===== */
+@media (max-width: 992px) {
+  .h2-p {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .p-all {
+    margin: 0 auto;
+  }
+
+  .how-list {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .how-title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .cow {
+    width: 90%;
+  }
+
+  .how-p {
+    font-size: 42px;
+  }
+}

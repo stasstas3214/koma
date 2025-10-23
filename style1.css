@@ -14,9 +14,9 @@ body {
 }
 
 .container {
-  max-width: 2000px;
+  max-width: 3000px;
   margin: 0 auto;
-  padding: 0 200px;
+  padding: 0 25px;
 }
 
 .card-group {
@@ -24,8 +24,8 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  flex-wrap: nowrap; /* <── всі картки в одному рядку */
-  overflow-x: auto;  /* <── якщо екран замалий, можна прокручувати */
+  flex-wrap: nowrap; 
+  overflow-x: auto;  
   padding: 30px;
   border-radius: 20px;
   max-width: 1200px;
@@ -33,7 +33,7 @@ body {
 }
 
 .card {
-  flex: 0 0 335px; /* <── фіксована ширина, без розтягування */
+  flex: 0 0 335px; 
   height: 735px;
   border-radius: 16px;
   color: #fff;

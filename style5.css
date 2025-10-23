@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-/* === LOCATIONS === */
+
 .locations {
   display: flex;
   justify-content: center;
@@ -20,17 +20,16 @@ body {
   border-radius: 20px;
   padding: 40px 30px;
   width: 280px;
-  box-shadow: 0 15px 40px rgba(255, 105, 135, 0.15);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .location:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 45px rgba(255, 105, 135, 0.25);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
 }
 
-/* === LABEL === */
 .label {
   display: inline-block;
   padding: 7px 15px;
@@ -51,7 +50,6 @@ body {
   color: #267347;
 }
 
-/* === TEXT === */
 .locations-h3 {
   font-size: 20px;
   font-weight: 700;
@@ -73,36 +71,13 @@ body {
 .time {
   font-size: 14px;
   color: #444;
+  line-height: 1.6;
 }
 
 .time strong {
   color: #000;
 }
 
-.time br + strong {
-  margin-top: 10px;
-  display: inline-block;
-}
-
-.time br + br + strong {
-  margin-top: 15px;
-}
-
-/* рожевий колір годин */
-.time {
-  line-height: 1.6;
-}
-
-.time br + br {
-  margin-bottom: 5px;
-}
-
-.time span,
-.time p {
-  color: #ff7a9a;
-}
-
-/* === CONTACT INFO === */
 .locations-div {
   margin-top: 15px;
 }
@@ -113,7 +88,7 @@ body {
   font-size: 13px;
 }
 
-/* === BUTTONS === */
+/* BUTTONS */
 .buttons {
   text-align: center;
   margin: 50px 0 80px;
@@ -149,20 +124,21 @@ body {
   color: #fff;
 }
 
-/* === FOOTER === */
-.footer {
+
+.footer1 {
   background: #fff1f4;
   padding: 60px 80px 30px;
 }
 
-.footer-content {
+.footer-content2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
-.footer-left .made {
+.footer-left3 .made4 {
   text-transform: uppercase;
   color: #fcb1c3;
   font-weight: 600;
@@ -170,47 +146,51 @@ body {
   margin-bottom: 5px;
 }
 
-.footer-left .passion {
+.footer-left3 .passion5 {
   font-size: 28px;
   font-weight: 800;
   color: #ff004c;
   margin-top: 0;
 }
 
-.footer-right {
+.footer-right6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   text-align: right;
 }
 
-.social {
+.social7 {
   display: flex;
   justify-content: flex-end;
   gap: 15px;
   margin-bottom: 10px;
 }
 
-.social svg {
-  width: 22px;
-  height: 22px;
+.social7 svg {
+  width: 24px;
+  height: 24px;
   fill: #ff7096;
-  transition: fill 0.3s;
+  transition: fill 0.3s, transform 0.2s;
 }
 
-.social svg:hover {
+.social7 svg:hover {
   fill: #ff004c;
+  transform: scale(1.1);
 }
 
-.footer-right p {
+.contact-text9 {
   font-size: 14px;
   margin: 0;
   color: #555;
 }
 
-.footer-right span {
+.contact-text9 span {
   color: #ff004c;
   font-weight: bold;
 }
 
-.copy {
+.copy10 {
   text-align: center;
   font-size: 12px;
   color: #888;
