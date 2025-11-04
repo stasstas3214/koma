@@ -1,0 +1,251 @@
+.card-group {
+  @media screen and (min-width: 320px) {
+    flex: 0 0 145px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  display: block;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: nowrap; /* <── всі картки в одному рядку */
+  overflow-x: auto; /* <── якщо екран замалий, можна прокручувати */
+  /* padding: 30px; */
+  border-radius: 20px;
+
+  margin: 0 auto;
+}
+
+.card {
+  @media screen and (min-width: 320px) {
+    flex: 0 0 145px;
+  }
+  @media screen and (min-width: 768px) {
+    flex: 20px;
+  }
+
+  height: 735px;
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.ice {
+  background-color: #f78da7;
+  margin-bottom: 100px;
+}
+
+.ice-coffee {
+  background-color: #d8bfa2;
+  margin-bottom: 100px;
+}
+
+.milkshake {
+  background-color: #8fcf9c;
+}
+
+.title-section {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-section h4 {
+  font-size: 38px;
+  color: #f5a6a6;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.title-section h1 {
+  font-size: 70px;
+  color: #e94256;
+  font-weight: 800;
+  margin: 5px 0 0 0;
+  letter-spacing: 1px;
+}
+
+.natur {
+  font-size: 27px;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  bottom: 20px;
+}
+
+.tradi {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffa5ba;
+}
+
+.mad {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+}
+
+.made-stats {
+  display: flex;
+  background-color: #fff5f5;
+  display: block;
+
+  align-items: flex-start;
+  gap: 100px;
+  padding: 20px 0 80px;
+  flex-wrap: wrap;
+}
+
+.made-stats .item h3 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.made-stats .item .tex {
+  @media screen and (min-width: 768px) {
+    width: 180px;
+  }
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  /* or 20px */
+
+  color: #000000;
+}
+
+.quadro {
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.quvalf {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.image {
+  @media screen and (min-width: 768px) {
+    height: 300px;
+  }
+}
+
+.made .image img {
+  @media screen and (min-width: 320px) {
+    height: auto;
+    object-fit: contain;
+    height: 350px;
+    width: 350px;
+    margin-right: 50px;
+  }
+  // @media screen and (min-width: 320px) {
+  //   // width: 120px;
+  //   // height: 120px;
+  // }
+}
+
+.made .content .bbb {
+  @media screen and (min-width: 768px) {
+    justify-content: left;
+  }
+  /* Btn 5 */
+
+  background: #ffffff;
+  border-radius: 22px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d41443;
+
+  border: none;
+  outline: none;
+  justify-content: center;
+  margin-top: 50px;
+}

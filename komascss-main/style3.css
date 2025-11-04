@@ -1,0 +1,159 @@
+.made {
+  position: relative;
+  width: 100%;
+  background-color: #fff5f5;
+  padding: 100px 0 60px;
+}
+
+.made .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.made .image {
+  flex: 1 1 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.made .content {
+  flex: 1 1 320px;
+}
+
+.made .content h3 {
+  /* tradition and love */
+
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffa5ba;
+  margin-top: 100px;
+}
+
+.made .content h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+}
+
+.made .content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 162%;
+  /* or 19px */
+
+  color: #000000;
+}
+
+.made .content .ttt {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 162%;
+  /* or 19px */
+  margin-top: 35px;
+  color: #907e82;
+}
+
+.made .content .btn {
+  display: inline-block;
+
+  padding: 10px 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.made .content .btn:hover {
+  background-color: #ff5b6d;
+}
+
+.made-stats {
+  background-color: #fff5f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 20px 0 80px;
+  /* flex-wrap: wrap; */
+}
+
+/* .made-stats .item {
+  /* width: 230px; 
+  /* padding-left: 20px; 
+} */
+
+.made-stats .item h3 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.made-stats .item .tex {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  /* or 20px */
+
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .products__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .products__item {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .product__image,
+  .products__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
