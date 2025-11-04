@@ -1,0 +1,359 @@
+.hero {
+  @media screen and (min-width: 320px) {
+    padding-top: 36px;
+    padding-bottom: 121px;
+    background-color: #ffb8ca;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 665px;
+  }
+}
+
+.icecream {
+  @media screen and (min-width: 320px) {
+    width: 90;
+    max-width: 171px;
+    position: relative;
+    z-index: 1;
+    bottom: -30px;
+    left: -70px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 143px;
+    height: 336px;
+    left: -80px;
+    position: relative;
+    bottom: 6px;
+    z-index: 1;
+  }
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    left: 5px;
+    width: 236px;
+    height: 557px;
+    bottom: 125px;
+  }
+}
+
+.circle {
+  @media screen and (min-width: 320px) {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 1/1;
+    background: #fcbad3;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    width: 346px;
+    height: 344px;
+    z-index: 0;
+    top: 150px;
+    right: -60%;
+    background: #f6a6c6;
+  }
+  @media screen and (min-width: 768px) {
+    aspect-ratio: 1/1;
+    height: 322px;
+    width: 324px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 160px;
+    left: -3%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 538px;
+    height: 538px;
+    left: 2%;
+    top: 90px;
+  }
+}
+
+.girl {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: relative;
+    bottom: -3px;
+    right: -50px;
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    right: -150px;
+  }
+}
+
+.girl img {
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 168px;
+    position: relative;
+    bottom: 145px;
+  }
+  @media screen and (min-width: 1200px) {
+    bottom: 362px;
+    width: 293px;
+  }
+  width: 232px;
+  max-width: 40vw;
+}
+
+.girl p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  color: #d5006d;
+  font-size: 180px;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+
+.eco {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.eco img {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: relative;
+    width: 188px;
+    left: -10%;
+  }
+  @media screen and (min-width: 1200px) {
+    left: -67%;
+  }
+  width: 250px;
+  margin-right: 15px;
+}
+
+.eco p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    left: -10%;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    width: 200px;
+    color: #ffffff;
+  }
+  @media screen and (min-width: 1200px) {
+    left: -67%;
+  }
+  font-size: 20px;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.stats {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-right: 35px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 20%;
+  }
+  position: absolute;
+  top: 20%;
+  right: -60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.stats .stat span {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-right: 35px;
+    margin-bottom: 10px;
+  }
+  font-size: 36px;
+  font-weight: bold;
+  color: #d5006d;
+}
+
+.stats .stat p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-right: 35px;
+  }
+  font-size: 16px;
+  color: #333;
+}
+
+.hero-title {
+  @media screen and (min-width: 320px) {
+    z-index: 10;
+  }
+}
+
+.btn,
+.btn-outline {
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn {
+  @media screen and (min-width: 320px) {
+    position: relative;
+    z-index: 2;
+
+    width: 90.2px;
+    height: 32px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #d41443;
+  }
+  z-index: 3;
+  background: #d5006d;
+  color: #fff;
+}
+
+.btn-outline {
+  @media screen and (min-width: 320px) {
+    position: relative;
+    z-index: 2;
+
+    width: 110.2px;
+    height: 32px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #d41443;
+    border: none;
+  }
+  border: 2px solid #d5006d;
+  color: #d5006d;
+}
+
+.btn:hover,
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.hero-title {
+  @media screen and (min-width: 320px) {
+    position: relative;
+    z-index: 2;
+
+    padding-left: 20px;
+    font-size: 33px;
+  }
+  @media screen and (min-width: 320px) {
+    position: relative;
+    left: -15%;
+    width: 240px;
+  }
+  @media screen and (min-width: 1200px) {
+    left: -75%;
+  }
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.passion {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+}
+
+.buttons {
+  @media screen and (min-width: 320px) {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    padding-left: 15px;
+  }
+  @media screen and (min-width: 320px) {
+    position: relative;
+    left: -15%;
+  }
+  @media screen and (min-width: 1200px) {
+    left: -75%;
+  }
+  margin: 30px 0;
+}
+
+.hero-img {
+  @media screen and (min-width: 768px) {
+    height: 200px;
+  }
+}
+
+.number {
+  font-family: "Titan One";
+}

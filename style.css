@@ -1,17 +1,15 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 body {
   background: #fcd2e2;
   color: #333;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
-
 
 header {
   display: flex;
@@ -19,8 +17,7 @@ header {
   align-items: center;
   padding: 20px 5%;
   flex-wrap: wrap;
-  background-color: #fcd2e2
- 
+  background-color: #fcd2e2;
 }
 
 .logo {
@@ -64,18 +61,15 @@ nav ul li a:hover {
   color: #fff;
 }
 
-
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 5%;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 40px;
   background-color: #fcd2e2 !important;
-  
 }
-
 
 .hero-text {
   flex: 1 1 400px;
@@ -97,7 +91,8 @@ nav ul li a:hover {
   margin: 30px 0;
 }
 
-.btn, .btn-outline {
+.btn,
+.btn-outline {
   text-decoration: none;
   padding: 14px 28px;
   border-radius: 30px;
@@ -117,7 +112,8 @@ nav ul li a:hover {
   color: #d5006d;
 }
 
-.btn:hover, .btn-outline:hover {
+.btn:hover,
+.btn-outline:hover {
   opacity: 0.8;
 }
 
@@ -138,11 +134,10 @@ nav ul li a:hover {
   line-height: 1.5;
 }
 
-
 .hero-img {
   position: relative;
   flex: 1 1 400px;
-  max-width: 500px;
+  max-width: 300px;
   text-align: center;
 }
 
@@ -167,7 +162,6 @@ nav ul li a:hover {
   z-index: 1;
 }
 
-
 .stats {
   position: absolute;
   top: 20%;
@@ -188,7 +182,6 @@ nav ul li a:hover {
   font-size: 16px;
   color: #333;
 }
-
 
 .girl {
   position: absolute;
@@ -219,6 +212,6 @@ nav ul li a:hover {
 }
 
 .logo img {
-  width: 150px;   
+  width: 150px;
   height: auto;
 }
