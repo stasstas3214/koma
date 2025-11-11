@@ -336,6 +336,7 @@ ol {
     padding-top: 36px;
     padding-bottom: 121px;
     background-color: #ffb8ca;
+    height: 502px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -350,29 +351,31 @@ ol {
     max-width: 171px;
     position: absolute;
     z-index: 1;
-    bottom: -30px;
-    left: -70px;
+    top:  147px;
+    right:  0px;
   }
 }
 @media screen and (min-width: 768px) {
   .icecream {
-    width: 143px;
-    height: 336px;
-    left: -80px;
+    width: 243px;
+    height: 450px;
+    left: -213px;
     position: relative;
-    bottom: 6px;
+    top: -99px;
     z-index: 1;
   }
 }
 @media screen and (min-width: 1200px) {
   .icecream {
     position: relative;
-    left: 5px;
+    left: 60px;
     width: 236px;
     height: 557px;
-    bottom: 125px;
+    top: -124px;
   }
 }
+
+
 
 @media screen and (min-width: 320px) {
   .circle {
@@ -391,7 +394,7 @@ ol {
     height: 344px;
     z-index: 0;
     top: 150px;
-    right: -60%;
+    right: -41%;
     background: #f6a6c6;
   }
 }
@@ -411,6 +414,7 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .circle {
+    max-width: 538px;
     width: 538px;
     height: 538px;
     left: 2%;
@@ -427,15 +431,15 @@ ol {
   .girl {
     display: flex;
     position: relative;
-    bottom: -3px;
-    right: -50px;
+    bottom: 90px;
+    right: -28px;
     text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .girl {
     position: relative;
-    right: -150px;
+    right: -500px;
   }
 }
 
@@ -458,7 +462,7 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .girl img {
-    bottom: 362px;
+    bottom: 270px;
     width: 293px;
   }
 }

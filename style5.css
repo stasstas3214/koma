@@ -256,13 +256,13 @@ color: #D41443;
 .btn {
   border: none;
   border-radius: 25px;
-  padding: 12px 30px;
+  padding: 20px 58px;
   font-weight: 600;
   cursor: pointer;
   margin: 5px;
   transition: 0.3s;
   @media (max-width: 767px) {
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     &:not(:last-child) {
       margin-bottom: 10px;
@@ -293,7 +293,7 @@ color: #D41443;
 /* === FOOTER === */
 .footer {
   background: #fff1f4;
-  padding: 60px 80px 30px;
+  padding: 80px 20px 70px;
 }
 
 .footer-content {
